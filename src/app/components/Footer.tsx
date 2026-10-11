@@ -58,7 +58,18 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
+        <div className="border-t border-gray-800 pt-8 text-center text-gray-400 space-y-2">
+          <p>
+            Desenvolvido por:{' '}
+            <a
+              href="https://www.instagram.com/lpsdeveloper/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-400 hover:text-white transition-colors"
+            >
+              LPS Developer
+            </a>
+          </p>
           <p>&copy; 2026 Bumblebee Cleaning Services. All rights reserved.</p>
         </div>
       </div>
