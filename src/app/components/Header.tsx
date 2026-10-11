@@ -12,7 +12,7 @@ export function Header() {
             <img
               src="https://iili.io/nVK1ILv.th.jpg"
               alt="Bumblebee Cleaning Services logo"
-              className="h-12 w-12 rounded-lg object-contain"
+              className="h-16 w-16 rounded-lg object-contain"
             />
             <div>
               <div className="font-bold text-xl text-gray-900">Bumblebee</div>
