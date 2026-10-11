@@ -1,4 +1,4 @@
-import { Sparkles, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -6,10 +6,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-yellow-400 p-2 rounded-lg">
-                <Sparkles className="w-5 h-5 text-gray-900" />
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="https://iili.io/nVK1ILv.th.jpg"
+                alt="Bumblebee Cleaning Services logo"
+                className="h-16 w-16 rounded-lg object-contain"
+              />
               <div>
                 <div className="font-bold text-lg">Bumblebee</div>
                 <div className="text-sm text-gray-400">Cleaning Services</div>
